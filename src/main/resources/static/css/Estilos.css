@@ -1,0 +1,27 @@
+#encabezado{
+    color:blueviolet;
+    font-weight:bold;   
+}
+
+#TituloPrincipal{
+    color:aquamarine;
+}
+
+.parrafosCentrados {
+    text-align: center;
+    font-weigth: bold;
+    color: #826faf;
+}
+
+.textoVerde{
+    color: greenyellow; 
+}
+
+p, h1,span {
+    color:blue;
+}
+
+link{
+    background-color: green;
+    color:white;
+}
