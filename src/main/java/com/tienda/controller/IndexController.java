@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author justh
  */
 @Controller
-@RequestMapping("/Index")
 public class IndexController {
     
     @RequestMapping("/")
