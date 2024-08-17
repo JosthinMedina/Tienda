@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.tienda.domain;
 
+package com.tienda.domain;
+import com.tienda.domain.categoria;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -35,10 +32,10 @@ public class Producto implements Serializable {
     private String rutaImagen;
     private boolean activo;
 
-    // private long idCategoria;
+//    private long idCategoria;
     @ManyToOne
-    @JoinColumn(name = "id_categoria")
-    categoria categoria;
+    @JoinColumn(name = "id_producto")
+    Producto producto;
 
     public Producto() {
     }
